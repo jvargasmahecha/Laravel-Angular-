@@ -1,1 +1,9 @@
 @import '~bootstrap/dist/css/bootstrap.css';
+
+.ng-invalid:not(form){
+    border-left:5px solid #E52717;
+}
+
+.ng-valid:not(form){
+    border-left:5px solid #0783CA;
+}
